@@ -49,7 +49,7 @@ export const postOTP = (data) => {
             "otp": data.pincode
           }
       console.log(inputPayload)
-          const response = await fetch(`http://192.168.0.185:8000/api/v1/otp/send`, {
+          const response = await fetch(`https://bronze-stitch-lycra.glitch.me/api/v1/otp/send`, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'
