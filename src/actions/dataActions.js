@@ -56,7 +56,7 @@ export const postData = (data) => {
             "sendStatus": data.success,
           }
          
-          const response = await fetch(`http://192.168.0.185:8000/api/v1/users/register`, {
+          const response = await fetch(`https://bronze-stitch-lycra.glitch.me/api/v1/users/register`, {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json'
