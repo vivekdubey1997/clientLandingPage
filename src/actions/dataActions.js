@@ -33,9 +33,9 @@ export const postData = (data) => {
 
     dispatch(postDataRequest());
     try {
-      var Authtoken = "W3lK4pH8nQ5zU2gF7jY1vX6iD9tB0mC3oR2lZ8xS5fU6jA4eN1";
+      var Authtoken = "8lHVdjtFsEBWgE0XA1Azht2M5BrhFdv1";
 
-      const response = await fetch(`https://adsgomedia.adbilling.me/api/v1/pinsend`, {
+      const response = await fetch(`https://njsapi.epicon.in/v2/uae/sendpin`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
