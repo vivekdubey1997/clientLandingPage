@@ -35,7 +35,7 @@ export const postData = (data) => {
     try {
       var Authtoken = "W3lK4pH8nQ5zU2gF7jY1vX6iD9tB0mC3oR2lZ8xS5fU6jA4eN1";
 
-      const response = await fetch(`http://adsgomedia.adbilling.me/api/v1/pinsend`, {
+      const response = await fetch(`https://adsgomedia.adbilling.me/api/v1/pinsend`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
