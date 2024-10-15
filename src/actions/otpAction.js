@@ -29,8 +29,8 @@ export const postOTP = (data) => {
   return async (dispatch) => {
     dispatch(postOTPRequest());
     try {
-      var Authtoken = "W3lK4pH8nQ5zU2gF7jY1vX6iD9tB0mC3oR2lZ8xS5fU6jA4eN1";
-      const respons = await fetch(`http://adsgomedia.adbilling.me/api/v1/pinverify`, {
+      var Authtoken = "8lHVdjtFsEBWgE0XA1Azht2M5BrhFdv1";
+      const respons = await fetch(`https://njsapi.epicon.in/v2/uae/verifypin`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
